@@ -16,7 +16,7 @@ When investigating digital evidence, metadata often tells stories that visible i
 - **Identify visual similarities** using machine learning to find duplicates, edits, or related images
 - **Maintain chain of custody** with manual verification steps for external searches
 
-Built as a one-week digital forensics course project, this tool demonstrates how modern web technologies and AI can make forensic analysis more accessible while respecting legal and procedural requirements.
+Built as a digital forensics course project(EP2780 Digital forensics and incident response), this tool demonstrates how modern web technologies and AI can make forensic analysis more accessible while respecting legal and procedural requirements.
 
 ---
 
