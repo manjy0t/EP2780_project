@@ -2,7 +2,7 @@
 
 **A Digital Forensics Tool for Metadata Analysis and Visual Intelligence**
 
-A browser-based forensic tool that extracts EXIF metadata from images, detects anomalies, clusters photos by location and visual similarity using AI, and provides reverse image search capabilities—all while maintaining proper forensic protocols.
+A browser-based forensic tool that extracts EXIF metadata from images, detects anomalies, clusters photos by location and visual similarity using AI, and provides reverse image search capabilities.
 
 ---
 
