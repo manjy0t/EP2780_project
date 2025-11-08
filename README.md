@@ -2,10 +2,6 @@
 
 **A Digital Forensics Tool for Metadata Analysis and Visual Intelligence**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://www.ecma-international.org/)
-[![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-4.11.0-orange.svg)](https://www.tensorflow.org/js)
-
 A browser-based forensic tool that extracts EXIF metadata from images, detects anomalies, clusters photos by location and visual similarity using AI, and provides reverse image search capabilities—all while maintaining proper forensic protocols.
 
 ---
@@ -254,7 +250,6 @@ This project demonstrates understanding of:
 - Privacy and confidentiality considerations
 - Manual verification requirements
 - Audit trail documentation
-- Court admissibility requirements
 
 ---
 
@@ -323,7 +318,7 @@ This project demonstrates understanding of:
 ### AI Limitations
 - MobileNet trained for object recognition, not forensic analysis
 - Similarity thresholds may need adjustment for specific use cases
-- Black-box model - can't fully explain similarity decisions
+- Black-box model can't fully explain similarity decisions
 - May miss forensically relevant but visually dissimilar connections
 
 ---
@@ -348,83 +343,7 @@ This project demonstrates understanding of:
 - Integration with law enforcement databases (with proper authorization)
 - Mobile app version for field investigators
 
----
 
-## 📚 Use Cases
-
-### Law Enforcement
-- Analyzing seized devices for geographic patterns
-- Identifying duplicate or edited images in evidence
-- Verifying timestamps and authenticity of submitted photos
-- Tracking suspect movement through photo metadata
-
-### Corporate Investigations
-- Detecting leaked documents through metadata analysis
-- Verifying employee location claims
-- Identifying photo manipulation in insurance claims
-- Analyzing social media images for OSINT
-
-### Academic Research
-- Teaching digital forensics concepts
-- Demonstrating metadata privacy concerns
-- Studying photo manipulation detection
-- Exploring AI applications in forensics
-
-### Personal Use
-- Understanding what metadata your photos contain
-- Organizing photo collections by location
-- Finding duplicate images in large collections
-- Privacy auditing before sharing photos online
-
----
-
-## 🤝 Contributing
-
-This is a student project built for educational purposes. While not actively maintained, contributions are welcome:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Contribution Ideas
-- Additional file format support
-- Improved anomaly detection algorithms
-- Better mobile responsiveness
-- Internationalization/localization
-- Performance optimizations
-- Documentation improvements
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see below for details:
-
-```
-MIT License
-
-Copyright (c) 2025 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 ---
 
@@ -433,11 +352,8 @@ SOFTWARE.
 **IMPORTANT: This tool is provided for educational and research purposes only.**
 
 - This is NOT certified forensic software
-- Results may not be admissible in court without additional documentation
 - User is responsible for proper evidence handling and chain of custody
 - No warranty or guarantee of accuracy
-- Not suitable for high-stakes legal proceedings without professional validation
-- Always consult with qualified forensic examiners for criminal cases
 
 **By using this tool, you acknowledge:**
 - You have proper authorization to analyze the images
@@ -455,6 +371,9 @@ SOFTWARE.
 - **NIST Computer Forensics Tool Testing** - For understanding validation requirements
 - **SWGDE Guidelines** - For forensic best practices
 
+### Test Images Used
+https://github.com/ianare/exif-samples?tab=readme-ov-file
+
 ### Technical Libraries
 - **EXIF.js** - JavaScript EXIF extraction
 - **Leaflet.js** - Beautiful open-source mapping
@@ -463,40 +382,8 @@ SOFTWARE.
 - **OpenStreetMap** - Free geographic data
 
 ### Educational Context
-- Built for Digital Forensics course at [Your University]
-- Completed in one week as hands-on learning project
+- Built for Digital Forensics course at KTH
 - Demonstrates both technical skills and forensic awareness
-
----
-
-## 📞 Contact and Support
-
-**Author:** [Your Name]  
-**Email:** [your.email@university.edu]  
-**Course:** Digital Forensics  
-**Institution:** [Your University]  
-**Project Date:** November 2025
-
-### Getting Help
-
-For questions or issues:
-1. Check the documentation above
-2. Review the source code comments
-3. Open an issue on GitHub
-4. Email the author
-
-### Citing This Work
-
-If you use this tool in research or education:
-
-```bibtex
-@software{exif_forensics_tool,
-  author = {[Your Name]},
-  title = {EXIF Data Extractor \& Mapper: A Digital Forensics Tool},
-  year = {2025},
-  url = {[Your GitHub URL]}
-}
-```
 
 ---
 
@@ -514,7 +401,3 @@ If you use this tool in research or education:
 - [x] Learn digital forensics principles deeply
 
 ---
-
-**Built with curiosity, completed with determination, documented with care.**
-
-*"The goal was not to replace professional forensic tools, but to understand how they work and explore how modern technologies might make forensic analysis more accessible while maintaining the rigor that legal proceedings demand."*
