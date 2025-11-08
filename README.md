@@ -336,13 +336,6 @@ This project demonstrates understanding of:
 - [ ] Custom report templates
 - [ ] Database export for forensic suites
 
-### Research Directions
-- Explainable AI for forensic image analysis
-- Custom CNN models trained on forensic datasets
-- Advanced clustering algorithms (DBSCAN, hierarchical)
-- Integration with law enforcement databases (with proper authorization)
-- Mobile app version for field investigators
-
 
 
 ---
@@ -387,7 +380,7 @@ https://github.com/ianare/exif-samples?tab=readme-ov-file
 
 ---
 
-## 🎯 Project Goals: Achieved ✅
+## 🎯 Project Goals: Achieved
 
 - [x] Extract comprehensive EXIF metadata from images
 - [x] Detect forensic anomalies automatically
